@@ -1,5 +1,10 @@
 using LinearAlgebra
 
+"""
+This function approximates the power law decay as the sum of exponentials. It takes the power of the power law dwwcay "a", system size "N"
+and the number of sums "n" as input and returns the set of coefficient "x" and power "lambda" respectively.
+implemented as in arXiv:0804.3976  
+"""
 
 function power_law_to_exp(a,N,n)
 
